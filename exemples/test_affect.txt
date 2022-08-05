@@ -1,0 +1,20 @@
+int a = 0;
+int b = 5;
+bool c = false;
+
+int main () {
+	print "a = ";
+	print a;
+	print "\na = ";
+	a = b;
+	print a;
+	print "\nb = ";
+	print b;
+	print "\nc = ";
+	print c;
+	c = true;
+	print "\nc = ";
+	print c;
+	print "\n";
+	return 0;
+}

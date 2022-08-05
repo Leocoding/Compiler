@@ -1,0 +1,23 @@
+int a = 5;
+bool c = false;
+
+int main () { 
+	if (c) { 
+		print "c vaut true\n"; 
+	} else { 
+		print "c vaut false;\n";
+	}
+	c = !c; 
+	if (c) { 
+		print "maintenant c vaut true\n";
+	}
+	print !true || false;
+  print "\n";
+	print (!c && true) || true;
+  print "\n";
+	print (5 * 2 >= 5 * 3);
+  print "\n";
+	print a == 5;
+	print "\n";
+	return 0;
+}

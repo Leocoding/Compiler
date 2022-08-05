@@ -1,0 +1,29 @@
+// commentaire
+
+int a = 5;
+bool z = false;
+
+bool f( int a, int b) {
+	while (a > 0) {
+		a = a - 1;
+	}
+	return false;
+}
+
+int g ( int a , int b , bool c ) { 
+	if ( c ) { 	
+		print b + a;
+		{ 
+			int x = 0;
+			bool g = false;
+			print g;
+		}
+	}
+	print f(5, 5);
+	return 55;
+}
+
+int main() {
+	print g(8, 5, false);
+	return 0;
+} 

@@ -1,0 +1,17 @@
+
+int a = 5;
+int b = 8;
+
+int g () {
+	a = ((a * (b + b)) / 2) - 3;
+	print "valeur calculé :";
+	print a;
+	print "\nvaleur renvoyé :";
+	return a; 
+}
+
+int main () { 
+	print g();
+	print "\n";
+	return 0;
+}

@@ -1,0 +1,23 @@
+// comment
+
+int a = 5;
+int b = 0;
+
+int g () {
+	while ( a > 0 ) { 
+		print a;
+		print "\n";
+		a = a - 1;
+		b = b + 1;
+	}
+	print "nb de tour de boucle : ";
+	return b;
+}
+
+// Fonction principal
+
+int main () {
+	print g();
+	print "\n";
+	return 0;
+}
